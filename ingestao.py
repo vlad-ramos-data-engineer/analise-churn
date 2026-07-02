@@ -11,4 +11,3 @@ print(amostra)
 print(f"Arquivo importado e analisado: possui {clientes.shape[0]} linhas e {clientes.shape[1]} colunas")
 print(f"E em {data_out} linhas os dados de data estão inválidos, correspondendo à {percent:.2f}% das linhas - investigar contrato junto à source") 
 
-
