@@ -1,0 +1,61 @@
+# ==========================================
+# 1. Ambientes Virtuais e Dependências
+# ==========================================
+venv/
+.venv/
+env/
+.env/
+Pipfile.lock
+poetry.lock
+
+# ==========================================
+# 2. Arquivos Temporários do Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# ==========================================
+# 3. Dados 
+# ==========================================
+# Ignore todos os arquivos de dados locais
+*.csv
+*.tsv
+*.dat
+*.parquet
+*.json
+*.sqlite
+*.db
+data/
+!data/.gitkeep  # Permite commitar a estrutura de pastas vazia
+
+# ==========================================
+# 4. Credenciais e Variáveis de Ambiente
+# ==========================================
+.env
+.env.*
+*.pem
+credentials.json
+*service_account*.json  
+gcp-credentials.json
+.kaggle/kaggle.json
+
+# ==========================================
+# 5. Notebooks e Machine Learning
+# ==========================================
+.ipynb_checkpoints/
+# Modelos treinados podem ser pesados, melhor salvar no storage
+*.pkl
+*.model
+*.h5
+*.pb
+
+# ==========================================
+# 6. IDEs e Sistema Operacional
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
