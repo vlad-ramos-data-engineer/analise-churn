@@ -18,9 +18,9 @@ __pycache__/
 .pytest_cache/
 
 # ==========================================
-# 3. Dados 
+# 3. Dados
 # ==========================================
-# Ignore todos os arquivos de dados locais
+# Por padrão, não versionar dumps/extrações de dados locais
 *.csv
 *.tsv
 *.dat
@@ -28,8 +28,10 @@ __pycache__/
 *.json
 *.sqlite
 *.db
-data/
-!data/.gitkeep  # Permite commitar a estrutura de pastas vazia
+data/*
+!data/.gitkeep
+# Exceção: base fictícia de exemplo, versionada para o projeto ser reprodutível
+!data/clientes_churn.csv
 
 # ==========================================
 # 4. Credenciais e Variáveis de Ambiente
@@ -55,7 +57,9 @@ gcp-credentials.json
 # ==========================================
 # 6. IDEs e Sistema Operacional
 # ==========================================
-.vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
 .idea/
 .DS_Store
 Thumbs.db

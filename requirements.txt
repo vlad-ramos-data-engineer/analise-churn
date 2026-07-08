@@ -1,0 +1,6 @@
+# Análise
+pandas>=2.2
+matplotlib>=3.8
+
+# Notebook (análise exploratória em notebooks/)
+jupyter>=1.0
