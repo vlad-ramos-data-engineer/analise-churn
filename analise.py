@@ -1,1 +1,0 @@
-# TODO: análise de churn
