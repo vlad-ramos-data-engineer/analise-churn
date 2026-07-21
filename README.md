@@ -99,4 +99,4 @@ Python · Pandas · Matplotlib · Jupyter
 
 ## Autor
 
-**Vlad Ramos** — em transição para a área de dados.
+**Vlad Ramos** 
